@@ -1,0 +1,38 @@
+$p-cyan:hsl(180, 66%, 49%);
+$p-dark-violet:hsl(257, 27%, 26%);
+$s-red:hsl(0, 87%, 67%);
+$n-gray:hsl(0, 0%, 75%);
+$n-grayish-violet:hsl(257, 7%, 63%);
+$n-very-dark-blue:rgb(53, 50, 62);
+$n-very-dark-violet:hsl(260, 8%, 14%);
+$font-poppins:'Poppins', sans-serif;
+$fw-medium: 500;
+$fw-bold: 700;
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    // outline: 1px #e0e0e0 solid;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    overflow-x: hidden;
+    color: $n-grayish-violet;
+}
+
+::-webkit-scrollbar{
+    width: .6rem;
+    height: .5rem;
+}
+::-webkit-scrollbar-thumb{
+    background: hsl(0, 0%, 64%);
+    border-radius: 2rem;
+    width: .2rem;
+}
+::-webkit-scrollbar-track{
+    background: #eee;
+}

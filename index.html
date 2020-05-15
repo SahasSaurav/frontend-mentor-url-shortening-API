@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortly</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/c60f73f892.js" defer crossorigin="anonymous"></script>
+    <script src="script/main.js" defer></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container flex">
+            <img src="images/logo.svg" alt="logo" class="nav__logo logo">
+            <button class="nav__hamburger" id="hamburger">
+                <img src="images/icon-hamburger.svg" alt="">
+            </button>
+            <div class="nav__lists flex row">
+                <ul class="nav__list flex row">
+                    <l1 class="nav__list-item"><a href="#" class="nav__link">Features</a></l1>
+                    <l1 class="nav__list-item"><a href="#" class="nav__link">Pricing</a></l1>
+                    <l1 class="nav__list-item"><a href="#" class="nav__link">Resources</a></l1>
+                </ul>
+                <ul class="nav__list flex row">
+                    <l1 class="nav__list-item"><a href="#" class="nav__link">Login</a></l1>
+                    <l1 class="nav__list-item"><a href="#" class="nav__btn btn btn--circular btn--cyan">Sign Up</a></l1>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="head">
+        <div class="container flex row">
+            <div class="head__info flex col">
+                <h1 class="head__title l-heading">More than just shorter links</h1>
+                <p class="head__desc">Build your brand's recongition and get detailed insights on how your links are
+                    performing</p>
+                <button class="head__btn btn btn--circular btn--cyan">Get Started</button>
+            </div>
+            <img src="images/illustration-working.svg" alt="" class="head__img">
+        </div>
+    </header>
+    <main class="stat">
+        <div class="container flex col">
+            <div class="url-shortner">
+                <form class="url-shortner__form flex row">
+                    <div class="input-wrapper">
+                        <input type="text" class="inputBox url-shortner__input " id="url-links" name="url-link" placeholder="Shorten a ink here..."/>
+                        <span class="err-msg">Please add a
+                        link</span>
+                    </div>
+                    <button class="url-shortner__btn btn btn--rounded btn--cyan">Shorten It!</button>
+                </form>
+            </div>
+            <div class="stat__info flex col">
+                <h2 class="stat__title m-heading">Advanced Statistics</h2>
+                <p class="stat__desc">Track how your links are performing across the web with our advanced Statistics
+                dashboard</p>
+            </div>
+            <div class="stat__cards flex row">
+                <div class="card">
+                    <span class="image-wrapper">
+                        <img src="images/icon-brand-recognition.svg" alt="brand recognition" class="card__img">
+                    </span>
+                    <h4 class="card__title s-heading">Brand Recognition</h4>
+                    <p class="card__desc">Bosst your brand recognition with each click. Generic links don't mean a thing.Branded links help instil confidence in your content</p>
+                </div>
+                <div class="card">
+                    <span class="image-wrapper">
+                        <img src="images/icon-detailed-records.svg" alt="detailed record" class="card__img">
+                    </span>
+                    <h4 class="card__title s-heading">Detailed Records</h4>
+                    <p class="card__desc">Gain insights into who is clicking your links. Knowing when and where people
+                        engage eith our content help inform better decisions</p>
+                </div>
+                <div class="card">
+                    <span class="image-wrapper">
+                        <img src="images/icon-fully-customizable.svg" alt="fully customizable" class="card__img">
+                    </span>
+                    <h4 class="card__title s-heading">Fully Customizable</h4>
+                    <p class="card__desc">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement</p>
+                </div>
+            </div>
+        </div>
+        <section class="boost">
+            <div class="container flex col">
+                <h2 class="boost__title m-heading">Boost your links today</h2>
+                <buuton class="boost__btn btn btn--circular btn--cyan">Get Started</buuton>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container flex row">
+            <img src="images/logo-footer.svg" alt="logo" class="footer__logo logo">
+            <nav class="footer__nav">
+                <h4 class="footer__list-title">Features</h4>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#" class="footer__link">Link Shortening</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Branded Links</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Analytics</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__nav">
+                <h4 class="footer__list-title">Resources</h4>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#" class="footer__link">Blog</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Developers</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Support</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__nav">
+                <h4 class="footer__list-title">Company</h4>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#" class="footer__link">About</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Our Teams</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Career</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer__social flex">
+                <a href="https://www.facebook.com" target="_blank" class="footer__link" aria-label="facebook"><i
+                class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener" class="footer__link" aria-label="youtube"><i
+                class="fab fa-youtube fa-2x"></i></a>
+                <a href="http://www.twitter.com" target="_blank" rel="noopener" class="footer__link" aria-label="twitter"><i
+                class="fab fa-twitter fa-2x"></i></a>
+                <a href="http://www.pinterest.com" target="_blank" rel="noopener" class="footer__link" aria-label="pinterest"><i
+                class="fab fa-pinterest fa-2x"></i></a>
+                <a href="http://www.instagram.com" target="_blank" rel="noopener" class="footer__link" aria-label="instagram"><i
+                class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
