@@ -15,18 +15,18 @@
     <nav class="nav">
         <div class="container flex">
             <img src="images/logo.svg" alt="logo" class="nav__logo logo">
-            <button class="nav__hamburger" id="hamburger">
+            <button class="nav__hamburger" id="hamburger" aria-label="hamburger menu">
                 <img src="images/icon-hamburger.svg" alt="">
             </button>
             <div class="nav__lists flex row">
                 <ul class="nav__list flex row">
-                    <l1 class="nav__list-item"><a href="#" class="nav__link">Features</a></l1>
-                    <l1 class="nav__list-item"><a href="#" class="nav__link">Pricing</a></l1>
-                    <l1 class="nav__list-item"><a href="#" class="nav__link">Resources</a></l1>
+                    <li class="nav__list-item"><a href="#" class="nav__link">Features</a></li>
+                    <li class="nav__list-item"><a href="#" class="nav__link">Pricing</a></li>
+                    <li class="nav__list-item"><a href="#" class="nav__link">Resources</a></li>
                 </ul>
                 <ul class="nav__list flex row">
-                    <l1 class="nav__list-item"><a href="#" class="nav__link">Login</a></l1>
-                    <l1 class="nav__list-item"><a href="#" class="nav__btn btn btn--circular btn--cyan">Sign Up</a></l1>
+                    <li class="nav__list-item"><a href="#" class="nav__link">Login</a></li>
+                    <li class="nav__list-item"><a href="#" class="nav__btn btn btn--circular btn--cyan">Sign Up</a></li>
                 </ul>
             </div>
         </div>
@@ -47,7 +47,7 @@
             <div class="url-shortner">
                 <form class="url-shortner__form flex row">
                     <div class="input-wrapper">
-                        <input type="text" class="inputBox url-shortner__input " id="url-links" name="url-link" placeholder="Shorten a ink here..."/>
+                        <input type="text" class="inputBox url-shortner__input " id="url-links" name="url-link" aria-label="insert the link to Shorten" placeholder="Shorten a ink here..."/>
                         <span class="err-msg">Please add a
                         link</span>
                     </div>
@@ -87,7 +87,7 @@
         <section class="boost">
             <div class="container flex col">
                 <h2 class="boost__title m-heading">Boost your links today</h2>
-                <buuton class="boost__btn btn btn--circular btn--cyan">Get Started</buuton>
+                <button class="boost__btn btn btn--circular btn--cyan">Get Started</button>
             </div>
         </section>
     </main>
